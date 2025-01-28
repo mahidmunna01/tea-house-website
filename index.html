@@ -29,17 +29,7 @@
     }
   </style>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
+
 </head>
 
 <body class="manrope-font">
@@ -48,8 +38,24 @@
   <!--  main  part start here-->
   <main class="max-w-7xl mx-auto">
 
+    <!-- nav-part -->
+    <nav class=" px-3 pt-6 lg:flex justify-between items-center">
+      <div class="text-center lg:text-left">
+        <h1 class="text-4xl font-extrabold text-orange-500">Tea House.</h1>
+      </div>
+      <div class="hidden lg:block">
+        <ul class="flex gap-10 text-[#1C1C1C] ">
+          <li class="font-bold cursor-pointer"><a href="#">Home</a></li>
+          <li class="font-bold cursor-pointer"><a href="#">About</a></li>
+          <li class="font-bold cursor-pointer"><a href="#">Services</a></li>
+          <li class="font-bold cursor-pointer"><a href="#">Contact</a></li>
+
+        </ul>
+      </div>
+    </nav>
+
     <!-- header -->
-    <header class="px-3 lg:flex justify-between gap-5 pt-8">
+    <header class="px-3 lg:flex justify-between gap-5 pt-8 lg:pt-28">
 
       <!-- header -left -->
       <div class="text-center lg:text-left">
